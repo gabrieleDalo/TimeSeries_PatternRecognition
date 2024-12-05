@@ -1,0 +1,43 @@
+NThreads,SequenceSize,Speedup,Efficiency,BestVersion,MeanTimeSequential
+1,1,1.02741,1.02741,Parallel with explicit chunk declaration,0.00392033
+2,1,1.97437,0.987186,Parallel with explicit chunk declaration,0.00379504
+4,1,3.85219,0.963049,Parallel with explicit chunk declaration,0.00377769
+6,1,4.84167,0.806945,Parallel with explicit chunk declaration,0.00380986
+8,1,4.85948,0.607435,Parallel with explicit chunk declaration,0.00436288
+10,1,6.93597,0.693597,Parallel with explicit chunk declaration,0.00523879
+12,1,8.05664,0.671387,Parallel with explicit chunk declaration,0.00567437
+1,10,1.02574,1.02574,Parallel with explicit chunk and atomic,0.00867321
+2,10,1.97236,0.98618,Base parallel,0.00848911
+4,10,3.99346,0.998365,Parallel with explicit chunk declaration,0.00839683
+6,10,5.7074,0.951233,Parallel with explicit chunk and atomic,0.0084001
+8,10,5.10184,0.63773,Base parallel,0.00960379
+10,10,8.18749,0.818749,Parallel with explicit chunk declaration,0.012415
+12,10,10.7391,0.894927,Parallel with explicit chunk and atomic,0.0141385
+1,50,1.00452,1.00452,Parallel with explicit chunk and atomic,0.0406602
+2,50,2.00639,1.00319,Base parallel,0.0404342
+4,50,3.98883,0.997208,Parallel with explicit chunk declaration,0.040645
+6,50,5.93224,0.988707,Parallel with explicit chunk declaration,0.0406166
+8,50,6.41703,0.802129,Base parallel,0.0463099
+10,50,9.29637,0.929637,Base parallel,0.0537958
+12,50,12.0278,1.00232,Base parallel,0.0588451
+1,100,1.01033,1.01033,Base parallel,0.0914851
+2,100,2.00974,1.00487,Base parallel,0.090904
+4,100,3.98575,0.996438,Base parallel,0.090975
+6,100,5.89261,0.982101,Parallel with explicit chunk declaration,0.0913651
+8,100,7.06177,0.882721,Base parallel,0.100377
+10,100,9.60563,0.960563,Base parallel,0.110207
+12,100,12.1013,1.00844,Base parallel,0.117625
+1,500,1.00129,1.00129,Parallel with explicit chunk declaration,0.551421
+2,500,2.0021,1.00105,Parallel with explicit chunk declaration,0.551258
+4,500,4.00041,1.0001,Parallel with explicit chunk declaration,0.551296
+6,500,5.97967,0.996611,Parallel with explicit chunk declaration,0.551357
+8,500,7.70289,0.962861,Parallel with explicit chunk declaration,0.557438
+10,500,9.60035,0.960035,Parallel with explicit chunk declaration,0.56246
+12,500,11.4207,0.951723,Parallel with explicit chunk declaration,0.565725
+1,1000,1.00461,1.00461,Parallel with explicit chunk declaration,1.12884
+2,1000,2.00829,1.00415,Parallel with explicit chunk declaration,1.12882
+4,1000,4.01091,1.00273,Parallel with explicit chunk declaration,1.12872
+6,1000,6.00373,1.00062,Parallel with explicit chunk declaration,1.12883
+8,1000,7.86411,0.983013,Parallel with explicit chunk declaration,1.13343
+10,1000,9.82072,0.982072,Parallel with explicit chunk declaration,1.13782
+12,1000,11.6026,0.966886,Parallel with explicit chunk and atomic,1.14125

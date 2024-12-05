@@ -1,0 +1,252 @@
+
+---------------------------------- AoS ----------------------------------
+
+Reading time series from CSV...
+N° of total timestamps: 738885
+Reading time (sequential): 0.618537 s
+
+N° of total timestamps: 738885
+Reading time (parallel) with 1 threads : 0.622044 s
+
+N° of total timestamps: 738885
+Reading time (parallel) with 2 threads : 0.401194 s
+
+N° of total timestamps: 738885
+Reading time (parallel) with 4 threads : 0.306809 s
+
+N° of total timestamps: 738885
+Reading time (parallel) with 6 threads : 0.303891 s
+
+N° of total timestamps: 738885
+Reading time (parallel) with 8 threads : 0.321139 s
+
+N° of total timestamps: 738885
+Reading time (parallel) with 10 threads : 0.343314 s
+
+N° of total timestamps: 738885
+Reading time (parallel) with 12 threads : 0.360903 s
+
+Acquiring time series to search...
+Total time (sequential): 1e-08 s
+
+---------- Sequence size: 1 ----------
+N° threads: 1, Best Speedup: 1.02741, Efficiency: 1.02741, Best Version: Parallel with explicit chunk declaration, Mean time sequential: 0.00392033 s
+N° threads: 2, Best Speedup: 1.97437, Efficiency: 0.987186, Best Version: Parallel with explicit chunk declaration, Mean time sequential: 0.00379504 s
+N° threads: 4, Best Speedup: 3.85219, Efficiency: 0.963049, Best Version: Parallel with explicit chunk declaration, Mean time sequential: 0.00377769 s
+N° threads: 6, Best Speedup: 4.84167, Efficiency: 0.806945, Best Version: Parallel with explicit chunk declaration, Mean time sequential: 0.00380986 s
+N° threads: 8, Best Speedup: 4.85948, Efficiency: 0.607435, Best Version: Parallel with explicit chunk declaration, Mean time sequential: 0.00436288 s
+N° threads: 10, Best Speedup: 6.93597, Efficiency: 0.693597, Best Version: Parallel with explicit chunk declaration, Mean time sequential: 0.00523879 s
+N° threads: 12, Best Speedup: 8.05664, Efficiency: 0.671387, Best Version: Parallel with explicit chunk declaration, Mean time sequential: 0.00567437 s
+
+=> best number of threads for sequence size = 1 is 12, when using version: Parallel with explicit chunk declaration
+Best speedup = 8.05664 => sublinear speedup
+Efficiency = 0.671387
+
+Acquiring time series to search...
+Total time (sequential): 1e-08 s
+
+---------- Sequence size: 10 ----------
+N° threads: 1, Best Speedup: 1.02574, Efficiency: 1.02574, Best Version: Parallel with explicit chunk and atomic, Mean time sequential: 0.00867321 s
+N° threads: 2, Best Speedup: 1.97236, Efficiency: 0.98618, Best Version: Base parallel, Mean time sequential: 0.00848911 s
+N° threads: 4, Best Speedup: 3.99346, Efficiency: 0.998365, Best Version: Parallel with explicit chunk declaration, Mean time sequential: 0.00839683 s
+N° threads: 6, Best Speedup: 5.7074, Efficiency: 0.951233, Best Version: Parallel with explicit chunk and atomic, Mean time sequential: 0.0084001 s
+N° threads: 8, Best Speedup: 5.10184, Efficiency: 0.63773, Best Version: Base parallel, Mean time sequential: 0.00960379 s
+N° threads: 10, Best Speedup: 8.18749, Efficiency: 0.818749, Best Version: Parallel with explicit chunk declaration, Mean time sequential: 0.012415 s
+N° threads: 12, Best Speedup: 10.7391, Efficiency: 0.894927, Best Version: Parallel with explicit chunk and atomic, Mean time sequential: 0.0141385 s
+
+=> best number of threads for sequence size = 10 is 12, when using version: Parallel with explicit chunk and atomic
+Best speedup = 10.7391 => sublinear speedup
+Efficiency = 0.894927
+
+Acquiring time series to search...
+Total time (sequential): 9.53674e-07 s
+
+---------- Sequence size: 50 ----------
+N° threads: 1, Best Speedup: 1.00452, Efficiency: 1.00452, Best Version: Parallel with explicit chunk and atomic, Mean time sequential: 0.0406602 s
+N° threads: 2, Best Speedup: 2.00639, Efficiency: 1.00319, Best Version: Base parallel, Mean time sequential: 0.0404342 s
+N° threads: 4, Best Speedup: 3.98883, Efficiency: 0.997208, Best Version: Parallel with explicit chunk declaration, Mean time sequential: 0.040645 s
+N° threads: 6, Best Speedup: 5.93224, Efficiency: 0.988707, Best Version: Parallel with explicit chunk declaration, Mean time sequential: 0.0406166 s
+N° threads: 8, Best Speedup: 6.41703, Efficiency: 0.802129, Best Version: Base parallel, Mean time sequential: 0.0463099 s
+N° threads: 10, Best Speedup: 9.29637, Efficiency: 0.929637, Best Version: Base parallel, Mean time sequential: 0.0537958 s
+N° threads: 12, Best Speedup: 12.0278, Efficiency: 1.00232, Best Version: Base parallel, Mean time sequential: 0.0588451 s
+
+=> best number of threads for sequence size = 50 is 12, when using version: Base parallel
+Best speedup = 12.0278 => superlinear speedup
+Efficiency = 1.00232
+
+Acquiring time series to search...
+Total time (sequential): 1e-08 s
+
+---------- Sequence size: 100 ----------
+N° threads: 1, Best Speedup: 1.01033, Efficiency: 1.01033, Best Version: Base parallel, Mean time sequential: 0.0914851 s
+N° threads: 2, Best Speedup: 2.00974, Efficiency: 1.00487, Best Version: Base parallel, Mean time sequential: 0.090904 s
+N° threads: 4, Best Speedup: 3.98575, Efficiency: 0.996438, Best Version: Base parallel, Mean time sequential: 0.090975 s
+N° threads: 6, Best Speedup: 5.89261, Efficiency: 0.982101, Best Version: Parallel with explicit chunk declaration, Mean time sequential: 0.0913651 s
+N° threads: 8, Best Speedup: 7.06177, Efficiency: 0.882721, Best Version: Base parallel, Mean time sequential: 0.100377 s
+N° threads: 10, Best Speedup: 9.60563, Efficiency: 0.960563, Best Version: Base parallel, Mean time sequential: 0.110207 s
+N° threads: 12, Best Speedup: 12.1013, Efficiency: 1.00844, Best Version: Base parallel, Mean time sequential: 0.117625 s
+
+=> best number of threads for sequence size = 100 is 12, when using version: Base parallel
+Best speedup = 12.1013 => superlinear speedup
+Efficiency = 1.00844
+
+Acquiring time series to search...
+Total time (sequential): 9.53674e-07 s
+
+---------- Sequence size: 500 ----------
+N° threads: 1, Best Speedup: 1.00129, Efficiency: 1.00129, Best Version: Parallel with explicit chunk declaration, Mean time sequential: 0.551421 s
+N° threads: 2, Best Speedup: 2.0021, Efficiency: 1.00105, Best Version: Parallel with explicit chunk declaration, Mean time sequential: 0.551258 s
+N° threads: 4, Best Speedup: 4.00041, Efficiency: 1.0001, Best Version: Parallel with explicit chunk declaration, Mean time sequential: 0.551296 s
+N° threads: 6, Best Speedup: 5.97967, Efficiency: 0.996611, Best Version: Parallel with explicit chunk declaration, Mean time sequential: 0.551357 s
+N° threads: 8, Best Speedup: 7.70289, Efficiency: 0.962861, Best Version: Parallel with explicit chunk declaration, Mean time sequential: 0.557438 s
+N° threads: 10, Best Speedup: 9.60035, Efficiency: 0.960035, Best Version: Parallel with explicit chunk declaration, Mean time sequential: 0.56246 s
+N° threads: 12, Best Speedup: 11.4207, Efficiency: 0.951723, Best Version: Parallel with explicit chunk declaration, Mean time sequential: 0.565725 s
+
+=> best number of threads for sequence size = 500 is 12, when using version: Parallel with explicit chunk declaration
+Best speedup = 11.4207 => sublinear speedup
+Efficiency = 0.951723
+
+Acquiring time series to search...
+Total time (sequential): 1.90735e-06 s
+
+---------- Sequence size: 1000 ----------
+N° threads: 1, Best Speedup: 1.00461, Efficiency: 1.00461, Best Version: Parallel with explicit chunk declaration, Mean time sequential: 1.12884 s
+N° threads: 2, Best Speedup: 2.00829, Efficiency: 1.00415, Best Version: Parallel with explicit chunk declaration, Mean time sequential: 1.12882 s
+N° threads: 4, Best Speedup: 4.01091, Efficiency: 1.00273, Best Version: Parallel with explicit chunk declaration, Mean time sequential: 1.12872 s
+N° threads: 6, Best Speedup: 6.00373, Efficiency: 1.00062, Best Version: Parallel with explicit chunk declaration, Mean time sequential: 1.12883 s
+N° threads: 8, Best Speedup: 7.86411, Efficiency: 0.983013, Best Version: Parallel with explicit chunk declaration, Mean time sequential: 1.13343 s
+N° threads: 10, Best Speedup: 9.82072, Efficiency: 0.982072, Best Version: Parallel with explicit chunk declaration, Mean time sequential: 1.13782 s
+N° threads: 12, Best Speedup: 11.6026, Efficiency: 0.966886, Best Version: Parallel with explicit chunk and atomic, Mean time sequential: 1.14125 s
+
+=> best number of threads for sequence size = 1000 is 12, when using version: Parallel with explicit chunk and atomic
+Best speedup = 11.6026 => linear speedup
+Efficiency = 0.966886
+
+Results saved in speedup_results_AoS.csv
+Total execution time: 42 minutes and 9 seconds
+
+---------------------------------- SoA ----------------------------------
+
+Reading time series from CSV...
+N° of total timestamps: 738885
+Reading time (sequential): 0.631538 s
+
+N° of total timestamps: 738885
+Reading time (parallel) with 1 threads : 0.620878 s
+
+N° of total timestamps: 738885
+Reading time (parallel) with 2 threads : 0.402628 s
+
+N° of total timestamps: 738885
+Reading time (parallel) with 4 threads : 0.306647 s
+
+N° of total timestamps: 738885
+Reading time (parallel) with 6 threads : 0.294158 s
+
+N° of total timestamps: 738885
+Reading time (parallel) with 8 threads : 0.318777 s
+
+N° of total timestamps: 738885
+Reading time (parallel) with 10 threads : 0.328429 s
+
+N° of total timestamps: 738885
+Reading time (parallel) with 12 threads : 0.352145 s
+
+Acquiring time series to search...
+Total time (sequential): 9.53674e-07 s
+
+---------- Sequence size: 1 ----------
+N° threads: 1, Best Speedup: 1.04422, Efficiency: 1.04422, Best Version: Base parallel, Mean time sequential: 0.00330248 s
+N° threads: 2, Best Speedup: 2.08203, Efficiency: 1.04102, Best Version: Base parallel, Mean time sequential: 0.0031887 s
+N° threads: 4, Best Speedup: 3.93696, Efficiency: 0.984239, Best Version: Parallel with explicit chunk and atomic, Mean time sequential: 0.00319964 s
+N° threads: 6, Best Speedup: 5.4252, Efficiency: 0.9042, Best Version: Base parallel, Mean time sequential: 0.00321878 s
+N° threads: 8, Best Speedup: 5.03645, Efficiency: 0.629556, Best Version: Base parallel, Mean time sequential: 0.00406255 s
+N° threads: 10, Best Speedup: 6.79427, Efficiency: 0.679427, Best Version: Base parallel, Mean time sequential: 0.00437896 s
+N° threads: 12, Best Speedup: 8.76784, Efficiency: 0.730653, Best Version: Base parallel, Mean time sequential: 0.00505212 s
+
+=> best number of threads for sequence size = 1 is 12, when using version: Base parallel
+Best speedup = 8.76784 => sublinear speedup
+Efficiency = 0.730653
+
+Acquiring time series to search...
+Total time (sequential): 1e-08 s
+
+---------- Sequence size: 10 ----------
+N° threads: 1, Best Speedup: 1.05195, Efficiency: 1.05195, Best Version: Parallel with explicit chunk and atomic, Mean time sequential: 0.00817809 s
+N° threads: 2, Best Speedup: 2.08566, Efficiency: 1.04283, Best Version: Parallel with explicit chunk declaration, Mean time sequential: 0.00791959 s
+N° threads: 4, Best Speedup: 4.138, Efficiency: 1.0345, Best Version: Parallel with explicit chunk and atomic, Mean time sequential: 0.00793558 s
+N° threads: 6, Best Speedup: 5.73355, Efficiency: 0.955592, Best Version: Parallel with explicit chunk and atomic, Mean time sequential: 0.00814052 s
+N° threads: 8, Best Speedup: 5.84518, Efficiency: 0.730647, Best Version: Parallel with explicit chunk and atomic, Mean time sequential: 0.0104261 s
+N° threads: 10, Best Speedup: 7.97527, Efficiency: 0.797527, Best Version: Parallel with explicit chunk and atomic, Mean time sequential: 0.0117332 s
+N° threads: 12, Best Speedup: 10.6159, Efficiency: 0.884662, Best Version: Base parallel, Mean time sequential: 0.0132217 s
+
+=> best number of threads for sequence size = 10 is 12, when using version: Base parallel
+Best speedup = 10.6159 => sublinear speedup
+Efficiency = 0.884662
+
+Acquiring time series to search...
+Total time (sequential): 1e-08 s
+
+---------- Sequence size: 50 ----------
+N° threads: 1, Best Speedup: 1.00655, Efficiency: 1.00655, Best Version: Parallel with explicit chunk and atomic, Mean time sequential: 0.0401074 s
+N° threads: 2, Best Speedup: 2.00811, Efficiency: 1.00405, Best Version: Parallel with explicit chunk and atomic, Mean time sequential: 0.0398792 s
+N° threads: 4, Best Speedup: 4.01908, Efficiency: 1.00477, Best Version: Parallel with explicit chunk and atomic, Mean time sequential: 0.0400865 s
+N° threads: 6, Best Speedup: 5.97965, Efficiency: 0.996608, Best Version: Parallel with explicit chunk and atomic, Mean time sequential: 0.0400335 s
+N° threads: 8, Best Speedup: 6.41916, Efficiency: 0.802394, Best Version: Base parallel, Mean time sequential: 0.0452377 s
+N° threads: 10, Best Speedup: 9.26185, Efficiency: 0.926185, Best Version: Parallel with explicit chunk and atomic, Mean time sequential: 0.052772 s
+N° threads: 12, Best Speedup: 11.315, Efficiency: 0.942915, Best Version: Base parallel, Mean time sequential: 0.0572042 s
+
+=> best number of threads for sequence size = 50 is 12, when using version: Base parallel
+Best speedup = 11.315 => sublinear speedup
+Efficiency = 0.942915
+
+Acquiring time series to search...
+Total time (sequential): 9.53674e-07 s
+
+---------- Sequence size: 100 ----------
+N° threads: 1, Best Speedup: 1.01847, Efficiency: 1.01847, Best Version: Base parallel, Mean time sequential: 0.0913263 s
+N° threads: 2, Best Speedup: 2.03079, Efficiency: 1.0154, Best Version: Base parallel, Mean time sequential: 0.0917322 s
+N° threads: 4, Best Speedup: 4.04663, Efficiency: 1.01166, Best Version: Parallel with explicit chunk declaration, Mean time sequential: 0.0910687 s
+N° threads: 6, Best Speedup: 5.97179, Efficiency: 0.995299, Best Version: Parallel with explicit chunk declaration, Mean time sequential: 0.0912594 s
+N° threads: 8, Best Speedup: 7.03793, Efficiency: 0.879741, Best Version: Base parallel, Mean time sequential: 0.099156 s
+N° threads: 10, Best Speedup: 9.65654, Efficiency: 0.965654, Best Version: Base parallel, Mean time sequential: 0.109883 s
+N° threads: 12, Best Speedup: 11.854, Efficiency: 0.987831, Best Version: Parallel with explicit chunk and atomic, Mean time sequential: 0.11571 s
+
+=> best number of threads for sequence size = 100 is 12, when using version: Parallel with explicit chunk and atomic
+Best speedup = 11.854 => linear speedup
+Efficiency = 0.987831
+
+Acquiring time series to search...
+Total time (sequential): 1e-08 s
+
+---------- Sequence size: 500 ----------
+N° threads: 1, Best Speedup: 1.00221, Efficiency: 1.00221, Best Version: Parallel with explicit chunk and atomic, Mean time sequential: 0.551794 s
+N° threads: 2, Best Speedup: 2.00389, Efficiency: 1.00195, Best Version: Parallel with explicit chunk and atomic, Mean time sequential: 0.551905 s
+N° threads: 4, Best Speedup: 4.00054, Efficiency: 1.00013, Best Version: Parallel with explicit chunk and atomic, Mean time sequential: 0.551713 s
+N° threads: 6, Best Speedup: 5.99064, Efficiency: 0.99844, Best Version: Parallel with explicit chunk and atomic, Mean time sequential: 0.55175 s
+N° threads: 8, Best Speedup: 7.7282, Efficiency: 0.966025, Best Version: Parallel with explicit chunk and atomic, Mean time sequential: 0.556713 s
+N° threads: 10, Best Speedup: 9.64497, Efficiency: 0.964497, Best Version: Parallel with explicit chunk and atomic, Mean time sequential: 0.560971 s
+N° threads: 12, Best Speedup: 11.4806, Efficiency: 0.956716, Best Version: Parallel with explicit chunk declaration, Mean time sequential: 0.563616 s
+
+=> best number of threads for sequence size = 500 is 12, when using version: Parallel with explicit chunk declaration
+Best speedup = 11.4806 => sublinear speedup
+Efficiency = 0.956716
+
+Acquiring time series to search...
+Total time (sequential): 1.19209e-06 s
+
+---------- Sequence size: 1000 ----------
+N° threads: 1, Best Speedup: 1.00095, Efficiency: 1.00095, Best Version: Parallel with explicit chunk and atomic, Mean time sequential: 1.12071 s
+N° threads: 2, Best Speedup: 2.00091, Efficiency: 1.00045, Best Version: Parallel with explicit chunk and atomic, Mean time sequential: 1.1205 s
+N° threads: 4, Best Speedup: 3.9987, Efficiency: 0.999676, Best Version: Parallel with explicit chunk and atomic, Mean time sequential: 1.12072 s
+N° threads: 6, Best Speedup: 5.98423, Efficiency: 0.997372, Best Version: Parallel with explicit chunk and atomic, Mean time sequential: 1.12067 s
+N° threads: 8, Best Speedup: 7.85023, Efficiency: 0.981279, Best Version: Parallel with explicit chunk and atomic, Mean time sequential: 1.1238 s
+N° threads: 10, Best Speedup: 9.79557, Efficiency: 0.979557, Best Version: Parallel with explicit chunk and atomic, Mean time sequential: 1.12677 s
+N° threads: 12, Best Speedup: 11.6076, Efficiency: 0.967302, Best Version: Parallel with explicit chunk declaration, Mean time sequential: 1.12882 s
+
+=> best number of threads for sequence size = 1000 is 12, when using version: Parallel with explicit chunk declaration
+Best speedup = 11.6076 => linear speedup
+Efficiency = 0.967302
+
+Results saved in speedup_results_SoA.csv
+Total execution time: 41 minutes and 53 seconds

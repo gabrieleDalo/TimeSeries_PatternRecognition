@@ -1,0 +1,4 @@
+/Applications/CLion.app/Contents/bin/cmake/mac/x64/bin/cmake -DCMAKE_BUILD_TYPE=Release -DCMAKE_MAKE_PROGRAM=/Applications/CLion.app/Contents/bin/ninja/mac/x64/ninja -G Ninja "-DPython_EXECUTABLE=/Users/maurodalo/Desktop/Parallel Computing/Esame/Midterm-Assignment_AoS/venv/bin/python" "-DPython3_EXECUTABLE=/Users/maurodalo/Desktop/Parallel Computing/Esame/Midterm-Assignment_AoS/venv/bin/python" -S "/Users/maurodalo/Desktop/Parallel Computing/Esame/Midterm-Assignment/Midterm-Assignment_AoS" -B "/Users/maurodalo/Desktop/Parallel Computing/Esame/Midterm-Assignment/Midterm-Assignment_AoS/cmake-build-release"
+-- Configuring done (0.1s)
+-- Generating done (0.0s)
+-- Build files have been written to: /Users/maurodalo/Desktop/Parallel Computing/Esame/Midterm-Assignment/Midterm-Assignment_AoS/cmake-build-release

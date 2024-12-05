@@ -1,0 +1,60 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Release-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.29"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "Midterm-Assignment_AoS",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "Midterm-Assignment_AoS::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Midterm-Assignment_AoS-Release-d97d68abfa35e7876324.json",
+					"name" : "Midterm-Assignment_AoS",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/Users/maurodalo/Desktop/Parallel Computing/Esame/Midterm-Assignment/Midterm-Assignment_AoS/cmake-build-release",
+		"source" : "/Users/maurodalo/Desktop/Parallel Computing/Esame/Midterm-Assignment/Midterm-Assignment_AoS"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}
